@@ -110,7 +110,7 @@ export default function Home() {
       sx={{
         width: "100vw",
         height: "100vh",
-        backgroundImage: "url(blurry-kitchen-background.avif)",
+        backgroundImage: "url('/static/images/blurry-kitchen-background.avif')",
         backgroundSize: "cover",
         backgroundRepeat: "no-repeat",
         backgroundPosition: "center",
@@ -255,7 +255,7 @@ export default function Home() {
             maxHeight: "70vh",
             overflow: "auto",
             alignItems: "center",
-            backgroundImage: "url(wood-texture-background.webp)",
+            backgroundImage: "url(/'static/images/wood-texture-background.webp')",
             "& > :first-of-type": {
               mt: 2,
             },
