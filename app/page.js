@@ -255,7 +255,7 @@ export default function Home() {
             maxHeight: "70vh",
             overflow: "auto",
             alignItems: "center",
-            backgroundImage: "url(/'static/images/wood-texture-background.webp')",
+            backgroundImage: "url('/static/images/wood-texture-background.webp')",
             "& > :first-of-type": {
               mt: 2,
             },
