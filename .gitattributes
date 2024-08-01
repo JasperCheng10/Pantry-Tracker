@@ -6,6 +6,7 @@
 *.html text
 *.css text
 *.js text
+*.mjs text
 
 # Binary files (no conversion)
 *.jpg binary
