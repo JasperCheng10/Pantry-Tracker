@@ -15,7 +15,7 @@ import {
 import DeleteIcon from "@mui/icons-material/Delete";
 import AddIcon from "@mui/icons-material/Add";
 import RemoveIcon from "@mui/icons-material/Remove";
-import { firestore } from "./firebase";
+import { firestore } from "../firebase";
 import {
   collection,
   query,
@@ -25,12 +25,6 @@ import {
   deleteDoc,
   getDoc,
 } from "firebase/firestore";
-
-// import DeleteIcon from '@mui/icons-material/Delete';
-
-import { FaPlus } from "react-icons/fa";
-import { FaMinus } from "react-icons/fa";
-import { FaRegTrashCan } from "react-icons/fa6";
 
 export default function Home() {
   const [pantry, setPantry] = useState([]);

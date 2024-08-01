@@ -1,7 +1,17 @@
+// {
+//   "compilerOptions": {
+//     "paths": {
+//       "@/*": ["/*"]
+//     }
+//   }
+// }
+
+// jsconfig.json
 {
   "compilerOptions": {
+    "baseUrl": ".",
     "paths": {
-      "@/*": ["/*"]
+      "@/*": ["./src/*"]
     }
   }
 }
