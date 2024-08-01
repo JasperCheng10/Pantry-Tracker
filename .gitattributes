@@ -1,1 +1,15 @@
+# Ensure line endings are normalized for text files
 * text=auto
+
+# Specify handling for specific file types
+*.md text
+*.html text
+*.css text
+*.js text
+
+# Binary files (no conversion)
+*.jpg binary
+*.png binary
+*.pdf binary
+*.avif binary
+*.webp binary
